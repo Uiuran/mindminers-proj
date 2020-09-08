@@ -16,14 +16,18 @@ pip install . --use-feature=2020-resolver
 import mmcalculadora as calc
 
 calculadora=calc.IRCalculadora('data.csv')
-calculadora=calculadora()
+calculadora()
 
+# Sumário mensal de renda e impostos
 print(calculadora.summary)
 
+# Evolução de operações, lucros e prejuízos
+print(calculadora.serie)
+
+# Outros dados
 calculadora.load_dataset('another_data.csv')
-calculadora=calculadora()
-
-print(calculadora.summary)
+calculadora()
+...
 ```
 
 or in the notebooks folder:
@@ -32,10 +36,13 @@ or in the notebooks folder:
 jupyter-notebook rendimento-absoluto.ipynb
 ```
 
+## Demonstrative scripts, output data(.csv) and plots(.png)
+
+See the notebook folder for that. The demonstrative script is a jupyter notebook since it allows for hover interativity with Plotly.
+
 ## Status
 
+08-09-2020  Beta - (Projeto Concluído/Funcional)
 03-09-2020  Alpha - (Parte1 - Calculadora)
 
 ## TODO
-
-Visualizações

@@ -17,7 +17,7 @@ setup(
     # https://packaging.python.org/en/latest/single_source_version.html
     # version='0.1',
     # according to https://semver.org/
-    version='0.1',
+    version='0.2beta',
 
     description='calculadora para operações na bolsa',
     long_description=long_description,
@@ -42,25 +42,6 @@ setup(
         #   5 - Production/Stable
         'Development Status :: 4 - Beta',
 
-        # Indicate who your project is intended for
-        'Intended Audience :: Science/Research',
-        'Intended Audience :: Developers',
-        'Intended Audience :: Telecommunications Industry',
-        'Intended Audience :: Education',
-        'Intended Audience :: Other Audience',
-        'Topic :: Scientific/Engineering :: Physics',
-        'Topic :: Scientific/Engineering :: Visualization',
-        'Topic :: Scientific/Engineering :: Information Analysis',
-        'Topic :: Multimedia :: Sound/Audio :: Sound Synthesis',
-        'Topic :: Multimedia :: Sound/Audio :: Editors',
-        'Topic :: Multimedia :: Sound/Audio :: Mixers',
-        'Topic :: Multimedia :: Sound/Audienceio :: Speech',
-        'Topic :: Artistic Software',
-        'Topic :: Other/Nonlisted Topic',
-        'Topic :: Text Processing',
-
-        # Pick your license as you wish (should match "license" above)
-
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
         'Programming Language :: Python :: 3',
@@ -69,20 +50,8 @@ setup(
     # What does your project relate to?
     keywords=['data-science'],
 
-    # You can just specify the packages manually here if your project is
-    # simple. Or you can use find_packages().
-    # packages=["music"],
     packages=find_packages(),
-    #packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-
-    # List run-time dependencies here.  These will be installed by pip when your
-    # project is installed. For an analysis of "install_requires" vs pip's
-    # requirements files see:
-    # https://packaging.python.org/en/latest/requirements.html
-    # TODO: test with virtualenv to know the dependencies
-
     install_requires=['numpy', 'scipy','pandas','plotly','jupyter'],
-
     project_urls={
                  'Documentation':'',
                  #'Funding': 'https://donate.pypi.org',
