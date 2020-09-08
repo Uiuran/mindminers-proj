@@ -43,6 +43,7 @@ See the notebook folder for that. The demonstrative script is a jupyter notebook
 ## Status
 
 08-09-2020  Beta - (Projeto Concluído/Funcional)
+
 03-09-2020  Alpha - (Parte1 - Calculadora)
 
 ## TODO
